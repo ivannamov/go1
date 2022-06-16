@@ -14,11 +14,11 @@ func main() {
 	fmt.Println("Скільки грошей треба витратити, щоб купити 9 яблук та 8 груш?", sum)
 
 	fmt.Println("дано", pearPrice, myMoney)
-	pearQuantity := myMoney / pearPrice
+	pearQuantity := int(myMoney / pearPrice)
 	fmt.Println("Скільки груш ми можемо купити?", pearQuantity)
 
 	fmt.Println("дано", applePrice, myMoney)
-	appleQuantity := myMoney / applePrice
+	appleQuantity := int(myMoney / applePrice)
 	fmt.Println("Скільки яблук ми можемо купити?", appleQuantity)
 
 	fmt.Println("дано", applePrice, pearPrice, myMoney)
